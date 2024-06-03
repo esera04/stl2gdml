@@ -15,3 +15,7 @@ This will convert `twins.stl` to `twins.gdml` and display the result with OpenGL
 
 ## Author
 Edward Serafimescu (eserafimescu@ucla.edu)
+
+
+## Citation
+S.D. Walker, A. Abramov, L.J. Nevay, W. Shields, S.T. Boogert, pyg4ometry: A Python library for the creation of Monte Carlo radiation transport physical geometries, Computer Physics Communications 272 108228 (2022).
