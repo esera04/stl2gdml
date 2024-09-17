@@ -166,3 +166,4 @@ cython_debug/
 *.stl
 *.skp
 *.zip
+!examples/*.stl
