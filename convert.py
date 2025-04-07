@@ -8,35 +8,46 @@ materials = {
     "G4_Cu": _g4.MaterialPredefined("G4_Cu", reg),
     "G4_Pb": _g4.MaterialPredefined("G4_Pb", reg),
     "G4_N": _g4.MaterialSingleElement("G4_N", 7, 14.007, 0.00125053, reg),
-    "G4_STAINLESS-STEEL": _g4.MaterialPredefined("G4_STAINLESS-STEEL", reg)
+    "G4_STAINLESS-STEEL": _g4.MaterialPredefined("G4_STAINLESS-STEEL", reg),
+    "G4_Quartz": _g4.MaterialSingleElement("G4_Quartz", 14, 28.085, 2.65, reg),  
+    "G4_TEFLON": _g4.MaterialPredefined("G4_TEFLON", reg)
 }
 
 densities = {
     "G4_Cu": 8.96,
     "G4_Pb": 11.35,
     "G4_N": 0.00125053,
-    "G4_STAINLESS-STEEL": 8.02
+    "G4_STAINLESS-STEEL": 8.02,
+    "G4_Quartz": 2.65, 
+    "G4_TEFLON": 2.2  
 }
 
 Zs = {
     "G4_Cu": 29,
     "G4_Pb": 82,
     "G4_N": 7,
-    "G4_STAINLESS-STEEL": 26
+    "G4_STAINLESS-STEEL": 26,
+    "G4_Quartz": 14, 
+    "G4_TEFLON": 8
 }
 
 As = {
     "G4_Cu": 63.546,
     "G4_Pb": 207.2,
     "G4_N": 14,
-    "G4_STAINLESS-STEEL": 55.845
+    "G4_STAINLESS-STEEL": 55.845,
+    "G4_Quartz": 28.085,  
+    "G4_TEFLON": 99.1
 }
+
 
 symbols = {
     "G4_Cu": 'Cu',
     "G4_Pb": 'Pb',
     "G4_N": 'N',
-    "G4_STAINLESS-STEEL": 'Fe'
+    "G4_STAINLESS-STEEL": 'Fe',
+    "G4_Quartz": 'SiO2',
+    "G4_TEFLON": 'TEFLON'
 }
 
 def add_element_to_gdml(root, name, symbol, z, a):
